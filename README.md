@@ -48,13 +48,13 @@ To analyze a C++ source file for buffer overflow vulnerabilities:
 Example:
 
 ```bash
-./detector vulnerable.cpp
+./detector VulnerableCPPSample.cpp
 ```
 
 ### Sample Output
 
 ```
-Detected 8 potential buffer overflow vulnerabilities in vulnerable.cpp:
+Detected 8 potential buffer overflow vulnerabilities in VulnerableCPPSample.cpp:
 ---------------------------------------------------------------------
 Line 7: [High] strcpy - Unsafe C string function in context: dest, src) {
     // Vulnerable: no bounds checking
@@ -159,7 +159,7 @@ array[index] = 42; // No check if index is within array bounds
 
 MIT License
 
-Copyright (c) 2025 Your Name
+Copyright (c) 2025 Svetoslav-1
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -28,7 +28,7 @@ This tool scans C++ source files to identify patterns and code constructs that c
 ### Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/cpp-buffer-overflow-detector.git
+git clone https://github.com/Svetoslav-1/cpp-buffer-overflow-detector.git
 cd cpp-buffer-overflow-detector
 ```
 
